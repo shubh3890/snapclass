@@ -1,3 +1,4 @@
+streamlit
 numpy
 pandas
 
@@ -17,6 +18,9 @@ segno
 pillow
 
 
-streamlit
 
 
+librosa
+resemblyzer
+torch
+webrtcvad-wheels
