@@ -46,7 +46,7 @@ def student_dashboard():
             stats_map[sid]={"total":0,"attended":0}
         stats_map[sid]['total'] +=1
 
-        if logs.get('is_present'):
+        if log.get('is_present'):
             stats_map[sid]['attended']+=1
     cols=st.columns(2)
     for i,sub_node in enumerate(subjects):
